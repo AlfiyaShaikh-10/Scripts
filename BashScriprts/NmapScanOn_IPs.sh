@@ -10,11 +10,13 @@ name="$line"
 echo "$name"
 count=$line
 
-sudo nmap -sC -sV -p- -T4 -f -iL iplist.txt $line1 
+
 #you can chnage command as per your need.
 
 if [ $VAR!='\' ];
-then echo "all scans are performed"
+then
+sudo nmap -sC -sV -p- -T4 -f -iL iplist.txt $line1 
+echo "all scans are performed "
 break
 fi
 
