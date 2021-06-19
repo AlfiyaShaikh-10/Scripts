@@ -1,3 +1,4 @@
+# Bash Scripts
 1. Clone the Repository.
 2. For Iterative Script CHANGE the IP Address as per your requirement.
 3. For nmap_scan scipt Provide the list of IPs in `iplist.txt` file.
